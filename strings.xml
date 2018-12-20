@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Dhaka_Guide</string>
+    <string-array name="food_name">
+        <item>Bangla Food</item>
+        <item>Traditional Food</item>
+        <item>Regular Food</item>
+        <item>Street Food</item>
+        <item>Fast Food</item>
+        <item>Cntinental Food</item>
+
+    </string-array>
+
+    <string-array name="Place">
+        <item>Lalbag Kella</item>
+        <item>Sonargaon/Panam City</item>
+        <item>Ahosan Manjil</item>
+        <item>Shohid Minar</item>
+        <item>Dhaka university</item>
+        <item>Jomidar Bari</item>
+
+    </string-array>
+</resources>

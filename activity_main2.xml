@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context=".MainActivity2">
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#161616"
+            android:text="Registration"/>
+        <EditText
+            android:background="@drawable/edittextstyle"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="First Name"/>
+        <EditText
+            android:background="@drawable/edittextstyle"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="Last Name" />
+        <EditText
+            android:background="@drawable/edittextstyle"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="Email Id (Ex:@gmail.com"/>
+        <EditText
+            android:background="@drawable/edittextstyle"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="Password" />
+        <EditText
+            android:background="@drawable/edittextstyle"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="Retype-Password" />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="terms and conditions"
+            android:textColor="#cf0909"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonselector"
+            android:layout_width="match_parent"
+            android:textColor="#fff"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="60dp"
+            android:text="SignUp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
